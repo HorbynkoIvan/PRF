@@ -1,0 +1,37 @@
+.how {
+  background: $primary3;
+  padding-top: 30px;
+  padding-bottom: 54px;
+
+  .how_title {
+    font-family: $font-main-bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    color: $textColor2;
+    margin-bottom: 63px;
+  }
+
+  .how_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    .item {
+      .item_img {
+        margin-bottom: 30px;
+      }
+
+      .item_text {
+        font-family: $font-main;
+        font-size: 20px;
+        line-height: 120%;
+        max-width: 232px;
+        text-align: center;
+        color: $textColor;
+        span{
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
