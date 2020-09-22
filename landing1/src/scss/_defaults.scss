@@ -50,3 +50,7 @@ img{
 .wrap {
 	@include min-max(320px, 1600px, 290px);
 }
+
+.wrap128 {
+	@include min-max(320px, 1600px, 128px);
+}

@@ -1,0 +1,10 @@
+.brands {
+  background: $primary2;
+  padding: 52px 0;
+  .brands_list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
