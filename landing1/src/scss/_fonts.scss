@@ -1,0 +1,19 @@
+@mixin fontFace($FontName, $FontPathName ) {
+
+	@font-face {
+		font-family: '#{$FontName}';
+		src: url('/assets/fonts/#{$FontPathName}.woff2') format('woff2'),
+			 url('/assets/fonts/#{$FontPathName}.woff') format('woff'),
+			 url('/assets/fonts/#{$FontPathName}.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+}
+
+@include fontFace('AkrobatRegular', 'akrobat-regular-webfont');
+@include fontFace('AkrobatBold', 'akrobat-bold-webfont');
+@include fontFace('CenturyGothic', 'CenturyGothic');
+$font-akrobat-regular: 'AkrobatRegular', Arial, Helvetica, sans-serif;
+$font-akrobat-bold: 'AkrobatBold', Arial, Helvetica, sans-serif;
+$font-main: 'CenturyGothic', Arial, Helvetica, sans-serif;
