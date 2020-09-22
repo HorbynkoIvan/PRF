@@ -1,0 +1,19 @@
+.footer {
+ // padding: 65px 0 265px 0;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E9FFFE 100%);
+  .footer_wrapper {
+    height: 407px;
+    position: relative;
+    overflow: auto;
+
+    .footer_sale_btn {
+      margin: 65px auto 0;
+    }
+
+    .img_block{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

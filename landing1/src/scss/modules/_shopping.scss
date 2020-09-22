@@ -1,22 +1,20 @@
-.how {
-  background: $primary3;
-  padding-top: 30px;
-  padding-bottom: 54px;
+.shopping {
+  padding: 40px 0;
 
-  .how_title {
+  .shopping_title {
     font-family: $font-main-bold;
     font-size: 47px;
     line-height: 110%;
     text-align: center;
     color: $textColor2;
-    margin-bottom: 63px;
+    margin-bottom: 72px;
   }
 
-  .how_list {
-    list-style-type: none;
+  .shopping_list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     .item {
+      flex-basis: 235px;
       .item_img {
         margin-bottom: 30px;
       }

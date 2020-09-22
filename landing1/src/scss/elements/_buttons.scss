@@ -1,0 +1,22 @@
+.sale_btn {
+  width: 322px;
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary2;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  font-family: $font-main;
+  font-size: 24px;
+  line-height: 110%;
+  color: $white;
+
+  border: none;
+  box-shadow: none;
+
+  &:hover, &:active {
+    background: darken($primary2, 15%);
+  }
+}
