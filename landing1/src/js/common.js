@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // planSlider();
     // videoPopup();
 
-    $(window).on('scroll', function (){
-        headerScroll()
-    })
+    // $(window).on('scroll', function (){
+    //     headerScroll()
+    // })
 })
