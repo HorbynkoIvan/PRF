@@ -25,8 +25,70 @@
       img {
         max-width: 100%;
       }
-      .item_comment1{
-        background-image: url("/assets/img/comments/type1.svg") 100% 100% no-repeat;
+
+      .item_comment1 {
+        background: url("/assets/img/comments/type1.svg") center top no-repeat;
+        background-size: cover;
+        width: 185px;
+        height: 99px;
+        position: absolute;
+        bottom: 64%;
+        right: 61%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          font-family: $font-main;
+          font-size: 20px;
+          color: $white;
+          max-width: 134px;
+          text-align: center;
+        }
+      }
+
+      .item_comment2 {
+        background: url("/assets/img/comments/type2.svg") center top no-repeat;
+        background-size: cover;
+        width: 125px;
+        height: 80px;
+        position: absolute;
+        bottom: 64%;
+        left: 72%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          font-family: $font-main;
+          font-size: 20px;
+          color: $commentColor;
+        }
+      }
+
+      .item_comment3 {
+        background: url("/assets/img/comments/type3.svg") center top no-repeat;
+        background-size: cover;
+        width: 185px;
+        height: 99px;
+        position: absolute;
+        bottom: 90%;
+        left: 72%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+
+        span {
+          font-family: $font-main;
+          font-size: 20px;
+          color: $white;
+          text-align: center;
+        }
+      }
+
+      .item_comment31 {
+        display: none;
       }
 
       .item_img_pigeon {
@@ -54,7 +116,7 @@
       }
 
       &.item_text_right {
-        padding-left: 5.5%; //88
+        padding-left: 5.5%;
       }
 
       span {
@@ -93,7 +155,27 @@
           max-width: 100%;
           max-height: 100%;
         }
+        .item_comment4 {
+          background: url("/assets/img/comments/type3.svg") center top no-repeat;
+          background-size: cover;
+          width: 185px;
+          height: 99px;
+          position: absolute;
+          left: 80%;
+          bottom: 77%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
 
+          span {
+            font-family: $font-main;
+            font-size: 20px;
+            color: $white;
+            text-align: center;
+            max-width: 140px;
+          }
+        }
         .item_img_pigeon {
           position: absolute;
           height: 100%;
@@ -131,12 +213,12 @@
 }
 
 @media only screen and (max-width: 1439px) {
-
 }
 
 @media only screen and (max-width: 1279px) {
   .promo {
     .promo_item {
+
       .item_text span {
         font-size: 36px;
       }
@@ -173,6 +255,32 @@
 
     .promo_item {
       .item_img {
+        .item_comment1 {
+          width: 149px;
+          height: 80px;
+          bottom: 70%;
+          right: 56%;
+          z-index: 1;
+        }
+
+        .item_comment2 {
+          width: 118px;
+          height: 80px;
+          bottom: 70%;
+          left: 70%;
+          z-index: 1;
+        }
+
+        .item_comment3 {
+          width: 150px;
+          height: 80px;
+          bottom: 92%;
+
+          span {
+            max-width: 116px;
+          }
+        }
+
         .item_img_pigeon {
         }
 
@@ -186,7 +294,7 @@
       }
 
       .item_text {
-        span {;
+        span {
           font-size: 36px;
         }
       }
@@ -210,7 +318,20 @@
             max-width: 100%;
             max-height: 100%;
           }
+          .item_comment4 {
+            width: 150px;
+            height: 80px;
+            left: 75%;
+            bottom: 70%;
 
+            span {
+              font-family: $font-main;
+              font-size: 20px;
+              color: $white;
+              text-align: center;
+              max-width: 140px;
+            }
+          }
           .item_img_pigeon {
             position: absolute;
             height: 100%;
@@ -260,6 +381,43 @@
         padding-bottom: 100%;
         order: 1;
 
+        .item_comment1 {
+          width: 135px;
+          height: 72px;
+          bottom: 70%;
+          right: 56%;
+        }
+
+        .item_comment2 {
+          width: 113px;
+          height: 72px;
+          bottom: 68%;
+          left: 66%;
+        }
+
+        .item_comment3 {
+          display: none;
+        }
+        .item_comment31 {
+          background: url("/assets/img/comments/type31.svg") center top no-repeat;
+          background-size: cover;
+          width: 135px;
+          height: 72px;
+          position: absolute;
+          right: 50%;
+          bottom: 60%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+
+          span {
+            font-family: $font-main;
+            font-size: 14px;
+            color: $white;
+            text-align: center;
+          }
+        }
         .item_img_pigeon {
         }
 
