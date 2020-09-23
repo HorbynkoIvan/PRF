@@ -91,6 +91,10 @@
         display: none;
       }
 
+      .item_comment41 {
+        display: none;
+      }
+
       .item_img_pigeon {
         position: absolute;
       }
@@ -399,7 +403,7 @@
           display: none;
         }
         .item_comment31 {
-          background: url("/assets/img/comments/type31.svg") center top no-repeat;
+          background: url("/assets/img/comments/type1.svg") center top no-repeat;
           background-size: cover;
           width: 135px;
           height: 72px;
@@ -464,8 +468,31 @@
           min-width: 100%;
           width: 100%;
           padding-bottom: 100%;
-          //margin-top: -30px;
-          //right: -25px;
+
+          .item_comment4 {
+            display: none;
+          }
+
+          .item_comment41 {
+            background: url("/assets/img/comments/type1.svg") center top no-repeat;
+            background-size: cover;
+            width: 135px;
+            height: 72px;
+            bottom: 70%;
+            right: 56%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+              font-family: $font-main;
+              font-size: 14px;
+              color: $white;
+              max-width: 120px;
+              text-align: center;
+            }
+          }
 
           img {
 

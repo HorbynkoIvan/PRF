@@ -16,6 +16,27 @@
       position: absolute;
       bottom: 0;
       right: 0;
+
+      .item_comment5 {
+        background: url("/assets/img/comments/type1.svg") center top no-repeat;
+        background-size: cover;
+        width: 185px;
+        height: 99px;
+        right: 92%;
+        bottom: 20%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          font-family: $font-main;
+          font-size: 20px;
+          color: $white;
+          max-width: 160px;
+          text-align: center;
+        }
+      }
     }
   }
 }
@@ -33,9 +54,49 @@
       }
 
       .img_block {
+        .item_comment5 {
+          //width: 195px;
+          //height: 80px;
+        }
+
         img {
-         // max-width: 251px;
-         max-width: 175px;
+          // max-width: 251px;
+          max-width: 175px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+
+    .footer_wrapper {
+      .footer_content {
+      }
+
+      .footer_sale_btn {
+
+      }
+
+      .img_block {
+        .item_comment5 {
+          width: 135px;
+          height: 72px;
+          right: 92%;
+          bottom: 20%;
+
+          span {
+            font-family: $font-main;
+            font-size: 14px;
+            color: $white;
+            max-width: 168px;
+            text-align: center;
+          }
+        }
+
+        img {
+          max-width: 175px;
         }
       }
     }
