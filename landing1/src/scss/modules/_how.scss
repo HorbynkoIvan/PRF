@@ -19,6 +19,9 @@
     .item {
       .item_img {
         margin-bottom: 30px;
+        img{
+          max-width: 100%;
+        }
       }
 
       .item_text {

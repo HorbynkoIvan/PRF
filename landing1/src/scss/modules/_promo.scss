@@ -11,15 +11,20 @@
 
   .promo_item {
     display: flex;
+    align-items: center;
     padding-bottom: 80px;
 
     .item_img {
-      flex-basis: 440px;
-      width: 440px;
-      height: 440px;
+      min-width: 43%;
+      width: 43%;
+      padding-bottom: 43%;
       background: rgba(255, 255, 255, 0.5);
       border-radius: 50%;
       position: relative;
+
+      img {
+        max-width: 100%;
+      }
 
       .item_img_pigeon {
         position: absolute;
@@ -38,12 +43,13 @@
     }
 
     .item_text {
-      flex-grow: 1;
       display: flex;
       align-items: center;
-      &.item_text_right{
-        padding-left: 88px;
+      padding-right: 5.5%; //88
+      &.item_text_right {
+        padding-left: 5.5%; //88
       }
+
       span {
         display: block;
         max-width: 495px;
@@ -56,8 +62,8 @@
     }
   }
 
-  .promo_footer{
-    .promo_footer_title{
+  .promo_footer {
+    .promo_footer_title {
       font-family: $font-main-bold;
       font-size: 47px;
       line-height: 120%;
@@ -66,16 +72,28 @@
       margin-top: 33px;
       margin-bottom: 12px;
     }
+
     .promo_footer_item {
       display: flex;
 
       .item_img {
         position: relative;
-        .item_img_pigeon{
-          position: relative;
+        min-width: 43%;
+        width: 43%;
+        padding-bottom: 43%;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .item_img_pigeon {
+          position: absolute;
+          height: 100%;
           z-index: 1;
         }
-        .item_img_box{
+
+        .item_img_box {
           position: absolute;
           bottom: 0;
           right: -95px;
@@ -86,6 +104,7 @@
       .item_text {
         display: flex;
         align-items: center;
+
         span {
           display: block;
           max-width: 495px;
@@ -109,6 +128,29 @@
 }
 
 @media only screen and (max-width: 1279px) {
+  .promo {
+    .promo_item {
+      .item_text span {
+        font-size: 36px;
+      }
+    }
+
+    .promo_footer {
+      .promo_footer_item {
+        .item_text span {
+          font-size: 36px;
+        }
+
+        .item_img {
+          .item_img_box {
+            img {
+              max-width: 231px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1023px) {
