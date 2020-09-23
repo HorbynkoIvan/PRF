@@ -81,5 +81,35 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .shopping{
+    padding: 25px 0 65px 0;
 
+    .shopping_title {
+      font-size: 30px;
+      margin-bottom: 61px;
+    }
+
+    .shopping_list{
+      padding: 0;
+      .item {
+        flex: 0 0 calc(100% / 2 - 15px);
+
+        &:nth-child(-n+4) {
+          margin-bottom: 39px;
+        }
+        .cart {
+
+          .item_img {
+            margin-bottom: 16px;
+          }
+
+          .item_text {
+            font-size: 20px;
+            letter-spacing: -1.5px;
+          }
+        }
+      }
+    }
+
+  }
 }

@@ -1,13 +1,15 @@
 .brands {
   background: $primary2;
   padding: 52px 0;
-  .brands_list{
+
+  .brands_list {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .item{
-      img{
+
+    .item {
+      img {
         max-width: 100%;
       }
     }
@@ -16,10 +18,26 @@
 
 @media only screen and (max-width: 1279px) {
   .brands {
-    .brands_list{
-      .item{
-        &:not(:last-child){
+    .brands_list {
+      .item {
+        &:not(:last-child) {
           margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .brands {
+    padding: 21px 0 32px 0;
+
+    .brands_list {
+      flex-direction: column;
+
+      .item {
+        &:not(:last-child) {
+          margin-bottom: 25px;
         }
       }
     }

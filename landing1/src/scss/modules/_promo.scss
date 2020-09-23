@@ -225,6 +225,7 @@
         .item_text {
           span {
             font-size: 36px;
+            letter-spacing: -2px;
           }
         }
       }
@@ -280,7 +281,7 @@
         }
 
         span {
-          letter-spacing: -1px;
+          letter-spacing: -2px;
           font-size: 30px;
         }
       }
@@ -290,7 +291,7 @@
       .promo_footer_title {
         font-size: 30px;
         margin-top: 48px;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
       }
 
       .promo_footer_item {
@@ -302,8 +303,8 @@
           min-width: 100%;
           width: 100%;
           padding-bottom: 100%;
-          margin-top: -30px;
-          right: -25px;
+          //margin-top: -30px;
+          //right: -25px;
 
           img {
 

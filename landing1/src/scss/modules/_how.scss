@@ -38,3 +38,38 @@
     }
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .how {
+    padding-top: 23px;
+    padding-bottom: 56px;
+
+    .how_title {
+      font-size: 30px;
+      max-width: 288px;
+      margin: 0 auto 34px;
+    }
+
+    .how_list {
+      flex-direction: column;
+      .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &:not(:last-child){
+          margin-bottom: 41px;
+        }
+        .item_img {
+          margin-bottom: 0px;
+        }
+
+        .item_text {
+          font-size: 18px;
+          max-width: 166px;
+          text-align: left;
+          margin-left: 2%;
+        }
+      }
+    }
+  }
+}
