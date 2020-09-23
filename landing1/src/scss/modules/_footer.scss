@@ -1,5 +1,4 @@
 .footer {
-  // padding: 65px 0 265px 0;
   background: linear-gradient(180deg, #FFFFFF 0%, #E9FFFE 100%);
 
   .footer_wrapper {
@@ -17,6 +16,28 @@
       position: absolute;
       bottom: 0;
       right: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer {
+
+    .footer_wrapper {
+      .footer_content {
+        height: 280px;
+      }
+
+      .footer_sale_btn {
+        margin: 28px auto 0;
+      }
+
+      .img_block {
+        img {
+         // max-width: 251px;
+         max-width: 175px;
+        }
+      }
     }
   }
 }

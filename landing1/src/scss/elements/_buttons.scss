@@ -20,3 +20,10 @@
     background: darken($primary2, 15%);
   }
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .sale_btn {
+    width: 282px;
+  }
+}
