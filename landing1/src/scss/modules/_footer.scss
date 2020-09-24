@@ -1,4 +1,4 @@
-.footer {
+.land_footer {
   background: linear-gradient(180deg, #FFFFFF 0%, #E9FFFE 100%);
 
   .footer_wrapper {
@@ -18,7 +18,7 @@
       right: 0;
 
       .item_comment5 {
-        background: url("/assets/img/comments/type1.svg") center top no-repeat;
+        background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type1.svg") center top no-repeat;
         background-size: cover;
         width: 185px;
         height: 99px;
@@ -43,7 +43,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .footer {
+  .land_footer {
 
     .footer_wrapper {
       .footer_content {
