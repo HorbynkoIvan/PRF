@@ -91,10 +91,6 @@
         display: none;
       }
 
-      .item_comment41 {
-        display: none;
-      }
-
       .item_img_pigeon {
         position: absolute;
       }
@@ -180,6 +176,11 @@
             max-width: 140px;
           }
         }
+
+        .item_comment41 {
+          display: none;
+        }
+
         .item_img_pigeon {
           position: absolute;
           height: 100%;
@@ -478,12 +479,13 @@
             background-size: cover;
             width: 135px;
             height: 72px;
-            bottom: 70%;
-            right: 56%;
             position: absolute;
+            bottom: 70%;
+            right: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
+            z-index: 1;
 
             span {
               font-family: $font-main;

@@ -22,9 +22,10 @@
         background-size: cover;
         width: 185px;
         height: 99px;
-        right: 92%;
-        bottom: 20%;
         position: absolute;
+        right: 92%;
+        bottom: 30%;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,11 +56,17 @@
 
       .img_block {
         .item_comment5 {
-          //width: 195px;
-          //height: 80px;
+          width: 135px;
+          height: 72px;
+          right: 80%;
+          bottom: 30%;
+          span{
+            font-size: 14px;
+            max-width: 110px;
+          }
         }
-
         img {
+         max-width: 175px;
           // max-width: 251px;
           max-width: 175px;
         }
