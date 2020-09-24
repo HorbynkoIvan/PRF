@@ -27,7 +27,7 @@
       }
 
       .item_comment1 {
-        background: url("/assets/img/comments/type1.svg") center top no-repeat;
+        background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type1.svg") center top no-repeat;
         background-size: cover;
         width: 185px;
         height: 99px;
@@ -48,7 +48,7 @@
       }
 
       .item_comment2 {
-        background: url("/assets/img/comments/type2.svg") center top no-repeat;
+        background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type2.svg") center top no-repeat;
         background-size: cover;
         width: 125px;
         height: 80px;
@@ -67,7 +67,7 @@
       }
 
       .item_comment3 {
-        background: url("/assets/img/comments/type3.svg") center top no-repeat;
+        background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type3.svg") center top no-repeat;
         background-size: cover;
         width: 185px;
         height: 99px;
@@ -157,7 +157,7 @@
         }
 
         .item_comment4 {
-          background: url("/assets/img/comments/type3.svg") center top no-repeat;
+          background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type3.svg") center top no-repeat;
           background-size: cover;
           width: 185px;
           height: 99px;
@@ -200,6 +200,16 @@
         display: flex;
         align-items: center;
 
+        .item_link{
+          font-size: 47px;
+          line-height: 120%;
+          color: $white;
+          text-decoration: none;
+          &:hover{
+            color:#FFF200;
+          }
+        }
+
         span {
           display: block;
           max-width: 495px;
@@ -232,6 +242,10 @@
 
     .promo_footer {
       .promo_footer_item {
+
+        .item_link{
+          font-size: 36px;
+        }
         .item_text span {
           font-size: 36px;
         }
@@ -355,7 +369,7 @@
         }
 
         .item_text {
-          span {
+          .item_link, span {
             font-size: 36px;
             letter-spacing: -2px;
           }
@@ -408,7 +422,7 @@
         }
 
         .item_comment31 {
-          background: url("/assets/img/comments/type1.svg") center top no-repeat;
+          background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type1.svg") center top no-repeat;
           background-size: cover;
           width: 135px;
           height: 72px;
@@ -431,7 +445,7 @@
         .item_img_pigeon {
         }
 
-        .item_img_pigeon1 {
+        .item_img_pigeon3 {
           bottom: -35px;
         }
 
@@ -480,7 +494,7 @@
           }
 
           .item_comment41 {
-            background: url("/assets/img/comments/type1.svg") center top no-repeat;
+            background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/comments/type1.svg") center top no-repeat;
             background-size: cover;
             width: 135px;
             height: 72px;
@@ -514,7 +528,7 @@
         }
 
         .item_text {
-          span {
+          .item_link, span {
             font-size: 30px;
             letter-spacing: -1px;
           }

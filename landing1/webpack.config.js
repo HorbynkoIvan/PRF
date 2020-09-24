@@ -88,7 +88,10 @@ module.exports = {
         }),
 	    new HtmlWebpackPlugin({
 		    filename: 'index.html',
-		    template: path.resolve(__dirname, './index.html')
+		    template: path.resolve(__dirname, './index.html'),
+            minify: {
+                collapseWhitespace: true
+            }
 	    })
     ]
 };
