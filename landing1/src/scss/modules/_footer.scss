@@ -16,6 +16,28 @@
       position: absolute;
       bottom: 0;
       right: 0;
+
+      .item_comment5 {
+        background: url("/assets/img/comments/type1.svg") center top no-repeat;
+        background-size: cover;
+        width: 185px;
+        height: 99px;
+        position: absolute;
+        right: 92%;
+        bottom: 30%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          font-family: $font-main;
+          font-size: 20px;
+          color: $white;
+          max-width: 160px;
+          text-align: center;
+        }
+      }
     }
   }
 }
@@ -33,8 +55,17 @@
       }
 
       .img_block {
+        .item_comment5 {
+          width: 135px;
+          height: 72px;
+          right: 80%;
+          bottom: 30%;
+          span{
+            font-size: 14px;
+            max-width: 110px;
+          }
+        }
         img {
-         // max-width: 251px;
          max-width: 175px;
         }
       }
