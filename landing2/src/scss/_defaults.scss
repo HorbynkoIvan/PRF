@@ -44,8 +44,14 @@ img{
 }
 
 .container {
-	@include min-max(320px, 100%, 0);
+	max-width: 1664px;
+	width: 100%!important;
+	margin: 0 auto!important;
+	padding: 0 32px;
 }
+//.container {
+//	@include min-max(320px, 100%, 0);
+//}
 
 .wrap {
 	@include min-max(320px, 1600px, 18%);
