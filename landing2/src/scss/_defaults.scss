@@ -48,6 +48,7 @@ img{
 	width: 100%!important;
 	margin: 0 auto!important;
 	padding: 0 32px;
+	box-sizing: border-box;
 }
 //.container {
 //	@include min-max(320px, 100%, 0);
