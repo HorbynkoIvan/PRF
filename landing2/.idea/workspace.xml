@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6991096c-bc84-4b3e-918a-adbb31b9ad65" name="Default Changelist" comment="" />
+    <list id="aeb96fcb-aef3-4f1c-ac7b-02998c7a49db" name="upload ua" comment="upload ua&#10;&#10;(cherry picked from commit 6f26369b90318652c8b2eeba42d21b2b52353407)">
+      <changelist_data name="Ivan Gorbynko" email="ivan.gorbynko@gmail.com" date="1600966862000" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hrO6BZ0BEUIUUCcQfTm6UkEA6S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/modules" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/img/comments" />
+      <recent name="$PROJECT_DIR$/src/scss/elements" />
+      <recent name="$PROJECT_DIR$/assets/font" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6991096c-bc84-4b3e-918a-adbb31b9ad65" name="Default Changelist" comment="" />
+      <created>1600765566606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600765566606</updated>
+      <workItem from="1600765567630" duration="20531000" />
+      <workItem from="1600846213589" duration="28018000" />
+      <workItem from="1600976242494" duration="1688000" />
+      <workItem from="1601014543238" duration="3177000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix comments&#10;&#10;(cherry picked from commit 6faee55ec86003c23ce9985d494d30b0001148b8)">
+      <created>1600929122476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600929122476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix button">
+      <created>1600929959015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600929959015</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update links&#10;&#10;(cherry picked from commit d008d241f784f697e7117f3cd98aad3c8e3b6795)">
+      <created>1600941412142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600941412142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;fix section how padding&quot;&#10;&#10;This reverts commit 7fb39d56">
+      <created>1600942513473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600942513473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix comments&#10;&#10;(cherry picked from commit 6faee55ec86003c23ce9985d494d30b0001148b8)" />
+    <MESSAGE value="fix button" />
+    <MESSAGE value="update links&#10;&#10;(cherry picked from commit d008d241f784f697e7117f3cd98aad3c8e3b6795)" />
+    <MESSAGE value="Revert &quot;fix section how padding&quot;&#10;&#10;This reverts commit 7fb39d56" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;fix section how padding&quot;&#10;&#10;This reverts commit 7fb39d56" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="305" y="-977" key="CommitChangelistDialog2" timestamp="1600967442314">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="305" y="-977" key="CommitChangelistDialog2/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600967442314" />
+    <state x="305" y="-956" key="CommitChangelistDialog2/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600929958920" />
+    <state x="779" y="-731" key="FileChooserDialogImpl" timestamp="1600963049356">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="779" y="-731" key="FileChooserDialogImpl/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600963049356" />
+    <state width="1899" height="224" key="GridCell.Tab.0.bottom" timestamp="1601018602762">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601014983123" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600930099078" />
+    <state width="1899" height="224" key="GridCell.Tab.0.bottom/0.23.1920.1177/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601018602762" />
+    <state width="1899" height="224" key="GridCell.Tab.0.center" timestamp="1601018602760">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="224" key="GridCell.Tab.0.center/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601014983122" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600930099077" />
+    <state width="1899" height="224" key="GridCell.Tab.0.center/0.23.1920.1177/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601018602760" />
+    <state width="1899" height="224" key="GridCell.Tab.0.left" timestamp="1601018602760">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="224" key="GridCell.Tab.0.left/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601014983121" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600930099076" />
+    <state width="1899" height="224" key="GridCell.Tab.0.left/0.23.1920.1177/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601018602760" />
+    <state width="1899" height="224" key="GridCell.Tab.0.right" timestamp="1601018602761">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="224" key="GridCell.Tab.0.right/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601014983123" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600930099077" />
+    <state width="1899" height="224" key="GridCell.Tab.0.right/0.23.1920.1177/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601018602761" />
+    <state x="6" y="-1032" key="MergeDialog" timestamp="1600967423641">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="6" y="-1032" key="MergeDialog/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600967423641" />
+    <state x="6" y="-1010" key="MergeDialog/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600929104925" />
+    <state x="415" y="-777" key="MultipleFileMergeDialog" timestamp="1600967423681">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="415" y="-777" key="MultipleFileMergeDialog/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600967423681" />
+    <state x="415" y="-760" key="MultipleFileMergeDialog/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600929950631" />
+    <state x="601" y="-830" key="RollbackChangesDialog" timestamp="1600942464475">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="601" y="-830" key="RollbackChangesDialog/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600942464475" />
+    <state x="698" y="-781" width="586" height="576" key="find.popup" timestamp="1601015158993">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="698" y="-781" width="586" height="576" key="find.popup/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1601015158993" />
+    <state x="542" y="-820" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600942469009">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="542" y="-820" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600942469009" />
+    <state x="439" y="-840" width="670" height="691" key="search.everywhere.popup" timestamp="1600968444735">
+      <screen x="-186" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="439" y="-840" width="670" height="691" key="search.everywhere.popup/0.0.1920.1200/-186.-1080.1920.1080@-186.-1080.1920.1080" timestamp="1600968444735" />
+    <state x="439" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177/-186.-1057.1920.1057@-186.-1057.1920.1057" timestamp="1600847901484" />
+  </component>
+</project>
