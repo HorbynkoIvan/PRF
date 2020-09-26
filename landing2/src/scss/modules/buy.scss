@@ -1,0 +1,80 @@
+.buy {
+  max-width: 847px;
+  margin: 0 auto;
+  h3 {
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: $primary1;
+    margin: 56px auto 33px;
+    max-width: 800px;
+    text-align: center;
+    span{
+      text-transform: uppercase;
+    }
+  }
+
+  .buy_wrap {
+    display: flex;
+    .buy_img {
+
+    }
+
+    .buy_info {
+      margin-left: 10%;
+      margin-right: 3%;
+      padding-top: 20px;
+      .buy_text{
+        font-family: "Century Gothic";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        color: $primary2;
+        margin-top: 85px;
+        margin-bottom: 90px;
+        max-width: 330px;
+        a{
+          color: $primary2;
+        }
+      }
+      .buy_list{
+        li{
+          display: inline-block;
+          font-family: "Century Gothic";
+          font-size: 24px;
+          line-height: 120%;
+          color: $primary2;
+          position: relative;
+         &:not(:last-child){
+           margin-bottom: 21px;
+         }
+          &:first-child{
+            &:after{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 285px;
+              height: 1px;
+              background:  #00ABBD;
+              left: 100%;
+            }
+          }
+          &:last-child{
+            &:after{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 161px;
+              height: 1px;
+              background:  #00ABBD;
+              left: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
