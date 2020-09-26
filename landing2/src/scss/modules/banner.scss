@@ -40,8 +40,11 @@
 
   .limit {
     display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
 
     .limit_info {
+      flex: 0;
       .limit_text {
         font-family: "Century Gothic";
         font-weight: bold;
@@ -52,8 +55,36 @@
         text-transform: uppercase;
 
         color: $primary1;
-        margin-top: 90px;
-        margin-bottom: 10px;
+        max-width: 490px;
+        margin: 90px auto 10px;
+      }
+
+      .limit_info_inner {
+        padding: 25px 58px;
+        box-sizing: border-box;
+        position: relative;
+        &:before{
+          content: '';
+          display: block;
+          width: 50px;
+          height: 50px;
+          border-left: 1px solid black;
+          border-top: 1px solid black;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        &:after{
+          content: '';
+          display: block;
+          width: 50px;
+          height: 50px;
+          border-right: 1px solid black;
+          border-bottom: 1px solid black;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
       }
 
       .limit_list {
@@ -61,7 +92,9 @@
         font-size: 24px;
         line-height: 120%;
         color: $primary2;
+
         li {
+          display: inline-block;
           &:before {
             content: url("/assets/img/list_point.svg");
             padding-right: 10px;
@@ -105,6 +138,7 @@
   }
 
   .banner_footer {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
   }
