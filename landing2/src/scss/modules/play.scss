@@ -12,6 +12,22 @@
     margin: 56px 0 33px;
   }
 
+  .play_text_mob {
+    display: none;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: $primary2;
+    margin-bottom: 15px;
+
+    a {
+      color: $primary2;
+    }
+
+  }
+
   .play_wrap {
     display: flex;
 
@@ -63,5 +79,102 @@
     display: flex;
     justify-content: center;
     padding: 54px 0 95px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .play {
+    max-width: 768px;
+
+    h3 {
+      font-size: 28px;
+      margin: 90px 0 40px;
+    }
+
+    .play_wrap {
+
+      .play_img {
+        img {
+          max-width: 370px;
+        }
+      }
+
+      .play_info {
+        margin-left: 15px;
+
+        .play_text {
+          font-size: 20px;
+          margin-bottom: 15px;
+
+          a {
+            color: $primary2;
+          }
+        }
+
+        .play_title {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+
+        .play_list {
+          li {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .play_footer {
+      display: flex;
+      justify-content: center;
+      padding: 54px 0 95px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .play {
+    max-width: 300px;
+
+    h3 {
+      font-size: 20px;
+      margin: 50px 0 22px;
+    }
+    .play_text_mob{
+      display: block;
+      max-width: 280px;
+      margin: 0 auto 30px;
+    }
+    .play_wrap {
+      flex-direction: column;
+
+      .play_img {
+        img {
+          max-width: 300px;
+        }
+      }
+
+      .play_info {
+        margin: 0 10px;
+
+        .play_text {
+          display: none;
+        }
+
+        .play_title {
+          font-size: 20px;
+        }
+
+        .play_list {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .play_footer {
+      padding: 28px 0 68px;
+    }
   }
 }
