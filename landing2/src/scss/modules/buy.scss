@@ -31,6 +31,7 @@
 
       &:first-child {
         margin-top: 15px;
+
         &:after {
           content: '';
           display: block;
@@ -45,6 +46,7 @@
 
       &:last-child {
         margin-top: 53px;
+
         &:after {
           content: '';
           display: block;
@@ -52,7 +54,7 @@
           width: 1px;
           height: 78px;
           background: #00ABBD;
-          top:-63px;
+          top: -63px;
           left: -11px;
         }
       }
@@ -84,6 +86,13 @@
 
         a {
           color: $primary2;
+          transition: color 0.3s;
+        }
+
+        &:hover, &:active {
+          a {
+            color: lighten($primary2, 15%);
+          }
         }
       }
 
@@ -208,12 +217,15 @@
     .buy_list_mob {
       display: flex;
       justify-content: space-between;
-      li{
+
+      li {
         width: 125px;
-        &:first-child{
+
+        &:first-child {
           text-align: right;
         }
-        &:last-child{
+
+        &:last-child {
           text-align: left;
         }
       }

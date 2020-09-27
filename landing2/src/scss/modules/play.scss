@@ -24,8 +24,13 @@
 
     a {
       color: $primary2;
+      transition: color 0.3s;
     }
-
+    &:hover, &:active {
+      a {
+        color: lighten($primary2, 15%);
+      }
+    }
   }
 
   .play_wrap {
@@ -50,6 +55,12 @@
 
         a {
           color: $primary2;
+          transition: color 0.3s;
+        }
+        &:hover, &:active {
+          a {
+            color: lighten($primary2, 15%);
+          }
         }
       }
 
