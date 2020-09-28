@@ -65,7 +65,10 @@
     display: flex;
 
     .buy_img {
-
+      transition: all .2s ease-in-out;
+      &:hover{
+        transform: scale(1.1);
+      }
     }
 
     .buy_info {
@@ -118,6 +121,7 @@
               height: 1px;
               background: #00ABBD;
               left: 100%;
+              z-index: 1;
             }
           }
 
@@ -130,6 +134,7 @@
               height: 1px;
               background: #00ABBD;
               left: 100%;
+              z-index: 1;
             }
           }
         }
@@ -160,6 +165,10 @@
 
         img {
           max-width: 307px;
+        }
+
+        &:hover{
+          transform: none;
         }
       }
 

@@ -1,6 +1,6 @@
 .banner {
   .banner_header {
-    background: url("/assets/img/bg_mount.jpg") center top no-repeat;
+    background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_mount.jpg") center top no-repeat;
     background-size: cover;
     padding-top: 37px;
     padding-bottom: 139px;
@@ -47,6 +47,10 @@
       margin-right: -20px;
       position: relative;
       right: -20px;
+      transition: all .2s ease-in-out;
+      &:hover{
+        transform: scale(1.1);
+      }
     }
 
     .limit_info {
@@ -106,7 +110,7 @@
           display: inline-block;
 
           &:before {
-            content: url("/assets/img/list_point.svg");
+            content: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/list_point.svg");
             padding-right: 10px;
             vertical-align: middle;
           }
@@ -115,14 +119,15 @@
       }
 
       .limit_btn1 {
-        background: url("/assets/img/bg_btn_water.jpg") center top no-repeat;
+        background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_btn_water.jpg") center top no-repeat;
         background-size: cover;
         color: $white;
         margin-top: 11px;
+        letter-spacing: -1px;
       }
 
       .limit_btn2 {
-        background: url("/assets/img/bg_btn_acid.jpg") center top no-repeat;
+        background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_btn_acid.jpg") center top no-repeat;
         background-size: cover;
         color: $primary1;
         margin-top: 20px;
@@ -183,6 +188,9 @@
       margin: -100px auto 0;
 
       .limit_img {
+        &:hover{
+          transform: none;
+        }
         img {
           max-height: 376px;
         }
@@ -247,7 +255,7 @@
 @media only screen and (max-width: 767px) {
   .banner {
     .banner_header {
-      background: url("/assets/img/bg_mount_mob.jpg") center top no-repeat;
+      background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_mount_mob.jpg") center top no-repeat;
       padding-top: 31px;
       padding-bottom: 144px;
 
@@ -264,7 +272,10 @@
       }
 
       .banner_subtitle {
-
+        border: 1px solid #FFFFFF;
+        display: inline-block;
+        padding: 7px 6px;
+        box-sizing: border-box;
         .title1 {
           font-size: 20px;
         }

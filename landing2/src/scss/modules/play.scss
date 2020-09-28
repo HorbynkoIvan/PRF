@@ -38,6 +38,10 @@
 
 
     .play_img {
+      transition: all .2s ease-in-out;
+      &:hover{
+          transform: scale(1.1);
+      }
     }
 
     .play_info {
@@ -107,6 +111,10 @@
       .play_img {
         img {
           max-width: 370px;
+        }
+
+        &:hover{
+          transform: none;
         }
       }
 
