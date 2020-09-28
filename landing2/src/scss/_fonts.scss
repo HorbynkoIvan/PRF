@@ -17,11 +17,11 @@
 //$font-main: 'GothamPro', Arial, Helvetica, sans-serif;
 //$font-main-bold: 'GothamProBold', Arial, Helvetica, sans-serif;
 
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url("https://cdn.parfums.ua/public/assets/font/GothamPro/GothamPro.ttf") format("truetype");
-  font-weight: 400;
-}
+//@font-face {
+//  font-family: 'Gotham Pro';
+//  src: url("https://cdn.parfums.ua/public/assets/font/GothamPro/GothamPro.ttf") format("truetype");
+//  font-weight: 400;
+//}
 
 //@font-face {
 //  font-family: 'Gotham Pro';
@@ -35,13 +35,13 @@
 //  font-weight: 700;
 //}
 //
-//@font-face {
-//  font-family: 'Century Gothic';
-//  src: url("https://cdn.parfums.ua/public/assets/font/GOTHICB/GOTHIC.TTF") format("truetype");
-//  font-style: normal;
-//  font-weight: 400;
-//}
-//
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("https://cdn.parfums.ua/public/assets/font/GOTHICB/GOTHIC.TTF") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
 //@font-face {
 //  font-family: 'Century Gothic';
 //  src: url("https://cdn.parfums.ua/public/assets/font/GOTHICB/GOTHICB.TTF") format("truetype");
