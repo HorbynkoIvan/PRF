@@ -42,7 +42,12 @@
     display: flex;
     max-width: 1024px;
     margin: -120px auto 0;
-
+    .limit_text_mob {
+      font-size: 20px;
+      max-width: 300px;
+      margin: 0px auto 4px;
+      display: none;
+    }
     .limit_img {
       margin-right: -20px;
       position: relative;
@@ -81,8 +86,8 @@
           display: block;
           width: 50px;
           height: 50px;
-          border-left: 1px solid black;
-          border-top: 1px solid black;
+          border-left: 2px solid $btnBgColor;
+          border-top: 2px solid $btnBgColor;
           position: absolute;
           top: 0;
           left: 0;
@@ -93,8 +98,8 @@
           display: block;
           width: 50px;
           height: 50px;
-          border-right: 1px solid black;
-          border-bottom: 1px solid black;
+          border-right: 2px solid $btnBgColor;
+          border-bottom: 2px solid $btnBgColor;
           position: absolute;
           bottom: 0;
           right: 0;
@@ -298,7 +303,9 @@
       flex-direction: column;
       padding: 0;
 
-
+      .limit_text_mob {
+        display: block;
+      }
       .limit_img {
         margin: 0 auto;
         right: 0;
@@ -310,9 +317,7 @@
 
       .limit_info {
         .limit_text {
-          font-size: 20px;
-          max-width: 320px;
-          margin: 0px auto 4px;
+          display: none;
         }
 
         .limit_info_inner {
