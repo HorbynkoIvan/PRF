@@ -6,8 +6,8 @@ html,
 body {
 }
 
-body {
-	//font-family: $font-main;
+body{
+	//font-family: "Century Gothic" !important;
 }
 
 .popup-opened{
@@ -49,6 +49,9 @@ img{
 	margin: 0 auto!important;
 	padding: 0 32px;
 	box-sizing: border-box;
+}
+.wrapper .container .mineral89_celebration *{
+	font-family: "Century Gothic" !important;
 }
 //.container {
 //	@include min-max(320px, 100%, 0);
