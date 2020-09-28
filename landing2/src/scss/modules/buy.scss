@@ -41,6 +41,7 @@
           background: #00ABBD;
           top: -25px;
           right: -11px;
+          z-index: 1;
         }
       }
 
@@ -56,6 +57,7 @@
           background: #00ABBD;
           top: -63px;
           left: -11px;
+          z-index: 1;
         }
       }
     }
@@ -65,7 +67,10 @@
     display: flex;
 
     .buy_img {
-
+      transition: all .2s ease-in-out;
+      &:hover{
+        transform: scale(1.1);
+      }
     }
 
     .buy_info {
@@ -160,6 +165,9 @@
 
         img {
           max-width: 307px;
+        }
+        &:hover{
+          transform: none;
         }
       }
 
