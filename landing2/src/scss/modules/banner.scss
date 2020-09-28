@@ -47,7 +47,7 @@
       margin-right: -20px;
       position: relative;
       right: -20px;
-      transition: all .2s ease-in-out;
+      transition: all .4s ease-in-out;
 
       &:hover {
         transform: scale(1.1);
@@ -258,15 +258,17 @@
   .banner {
 
     .banner_header {
-      background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_mount_mob.jpg") center top no-repeat;
+      background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_mount_mob.jpg") center center no-repeat;
       padding-top: 31px;
       padding-bottom: 144px;
+      box-sizing: border-box;
 
       .banner_title {
-        margin: 0 auto 29px;
+        margin: 0 auto 0px;
 
         .title1 {
           font-size: 20px;
+          letter-spacing: -1px;
         }
 
         .title2 {
@@ -281,11 +283,11 @@
         display: inline-block;
 
         .title1 {
-          font-size: 20px;
+          font-size: 24px;
         }
 
         .title2 {
-          font-size: 20px;
+          font-size: 27px;
         }
       }
     }
