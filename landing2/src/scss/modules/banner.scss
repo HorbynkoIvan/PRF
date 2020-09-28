@@ -48,7 +48,8 @@
       position: relative;
       right: -20px;
       transition: all .2s ease-in-out;
-      &:hover{
+
+      &:hover {
         transform: scale(1.1);
       }
     }
@@ -123,7 +124,6 @@
         background-size: cover;
         color: $white;
         margin-top: 11px;
-        letter-spacing: -1px;
       }
 
       .limit_btn2 {
@@ -186,13 +186,15 @@
       max-width: 768px;
       justify-content: flex-end;
       margin: -100px auto 0;
+      padding: 0 20px;
 
       .limit_img {
-        &:hover{
-          transform: none;
-        }
         img {
           max-height: 376px;
+        }
+
+        &:hover {
+          transform: none;
         }
       }
 
@@ -254,6 +256,7 @@
 
 @media only screen and (max-width: 767px) {
   .banner {
+
     .banner_header {
       background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_mount_mob.jpg") center top no-repeat;
       padding-top: 31px;
@@ -272,10 +275,11 @@
       }
 
       .banner_subtitle {
-        border: 1px solid #FFFFFF;
-        display: inline-block;
         padding: 7px 6px;
         box-sizing: border-box;
+        border: 1px solid #FFFFFF;
+        display: inline-block;
+
         .title1 {
           font-size: 20px;
         }
@@ -290,10 +294,12 @@
       max-width: 300px;
       justify-content: center;
       flex-direction: column;
+      padding: 0;
 
 
       .limit_img {
         margin: 0 auto;
+        right: 0;
 
         img {
           max-width: 300px;
