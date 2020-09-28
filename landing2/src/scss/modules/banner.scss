@@ -52,7 +52,7 @@
       text-align: center;
       text-transform: uppercase;
       color: #00667D;
-      max-width: 300px;
+      max-width: 100%;
       margin: 0px auto 4px;
       display: none;
     }
@@ -60,6 +60,7 @@
       margin-right: -20px;
       position: relative;
       right: -20px;
+      text-decoration: none;
       transition: all .4s ease-in-out;
 
       &:hover {
@@ -306,7 +307,6 @@
     }
 
     .limit {
-      max-width: 300px;
       justify-content: center;
       flex-direction: column;
       padding: 0;
@@ -325,6 +325,8 @@
       }
 
       .limit_info {
+        max-width: 300px;
+        margin: 0 auto;
         .limit_text {
           display: none;
         }
