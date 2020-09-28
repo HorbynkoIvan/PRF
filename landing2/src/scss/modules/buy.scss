@@ -66,6 +66,7 @@
 
     .buy_img {
       transition: all .4s ease-in-out;
+      text-decoration: none;
       &:hover{
         transform: scale(1.1);
       }
