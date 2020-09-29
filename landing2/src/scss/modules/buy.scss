@@ -67,7 +67,8 @@
     .buy_img {
       transition: all .4s ease-in-out;
       text-decoration: none;
-      &:hover{
+
+      &:hover {
         transform: scale(1.1);
       }
     }
@@ -160,15 +161,16 @@
 
     .buy_wrap {
       display: flex;
+      padding: 0 65px;
 
       .buy_img {
-        margin-right: 10%;
+        margin-right: 0%;
 
         img {
           max-width: 307px;
         }
 
-        &:hover{
+        &:hover {
           transform: none;
         }
       }
@@ -243,6 +245,7 @@
 
     .buy_wrap {
       flex-direction: column;
+      padding: 0;
 
       .buy_img {
         margin: 0 auto;
