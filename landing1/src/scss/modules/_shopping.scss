@@ -16,7 +16,7 @@
     padding: 0 40px;
     justify-content: space-between;
 
-    .item {
+    .shopping_list_item {
       flex: 0 0 calc(100% / 3 - 40px);
       display: flex;
       justify-content: center;
@@ -45,7 +45,7 @@
           }
         }
 
-        .item_text {
+        .cart_text {
           font-size: 24px;
           line-height: 100%;
           text-align: center;
@@ -59,7 +59,7 @@
             transform: scale(1.05);
           }
 
-          .item_text{
+          .cart_text{
             color: $primary1;
           }
         }
@@ -83,7 +83,7 @@
       padding: 0 10%;
     }
     .shopping_list{
-      .item {
+      .shopping_list_item {
         flex: 0 0 calc(100% / 3 - 20px);
       }
     }
@@ -111,7 +111,7 @@
 
     .shopping_list{
       padding: 0;
-      .item {
+      .shopping_list_item {
         flex: 0 0 calc(100% / 2 - 15px);
 
         &:nth-child(-n+4) {
@@ -129,7 +129,7 @@
             }
           }
 
-          .item_text {
+          .cart_text {
             font-size: 20px;
             letter-spacing: -1.5px;
           }
