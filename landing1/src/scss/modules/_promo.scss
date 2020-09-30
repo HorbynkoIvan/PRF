@@ -411,6 +411,10 @@
           height: 72px;
           bottom: 70%;
           right: 56%;
+          span{
+            font-size: 14px;
+            max-width: 120px;
+          }
         }
 
         .item_comment2 {
@@ -418,6 +422,9 @@
           height: 72px;
           bottom: 68%;
           left: 66%;
+          span{
+            font-size: 14px;
+          }
         }
 
         .item_comment3 {
