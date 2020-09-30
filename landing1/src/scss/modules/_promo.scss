@@ -205,8 +205,11 @@
           line-height: 120%;
           color: $white;
           text-decoration: none;
+          border-bottom: 1px solid $white;
+          transition: color, border-bottom 0.3s;
           &:hover{
             color:#FFF200;
+            border-bottom: 1px solid transparent;
           }
         }
 
@@ -466,7 +469,7 @@
         }
 
         span {
-          letter-spacing: -2px;
+          //letter-spacing: -2px;
           font-size: 30px;
         }
       }
