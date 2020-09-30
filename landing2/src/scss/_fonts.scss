@@ -1,0 +1,18 @@
+//@mixin fontFace($FontName, $FontPathName ) {
+//
+//	@font-face {
+//		font-family: '#{$FontName}';
+//		src: url('/assets/fonts/#{$FontPathName}.woff2') format('woff2'),
+//			 url('/assets/fonts/#{$FontPathName}.woff') format('woff'),
+//			 url('/assets/fonts/#{$FontPathName}.ttf') format('truetype');
+//		font-weight: normal;
+//		font-style: normal;
+//	}
+//
+//}
+//
+//@include fontFace('GothamPro', 'GothamPro');
+//@include fontFace('GothamProBold', 'GothamPro-Bold');
+//
+//$font-main: 'GothamPro', Arial, Helvetica, sans-serif;
+//$font-main-bold: 'GothamProBold', Arial, Helvetica, sans-serif;

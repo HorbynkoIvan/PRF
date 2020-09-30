@@ -12,21 +12,13 @@
       img {
         max-width: 100%;
       }
-    }
-  }
-}
-
-@media only screen and (max-width: 1279px) {
-  .brands {
-    .brands_list {
-      .item {
-        &:not(:last-child) {
-          margin-right: 20px;
-        }
+      &:not(:last-child) {
+        margin-right: 20px;
       }
     }
   }
 }
+
 
 @media only screen and (max-width: 767px) {
   .brands {

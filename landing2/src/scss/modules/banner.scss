@@ -1,0 +1,49 @@
+.banner {
+  .banner_header {
+    background: url("/assets/img/bg_mount.jpg") center top no-repeat;
+    background-size: cover;
+    padding-top: 37px;
+    padding-bottom: 139px;
+
+    .banner_title {
+      font-family: Century Gothic;
+      font-size: 28px;
+      line-height: 120%;
+      text-align: center;
+      text-transform: uppercase;
+      color: $white;
+      text-align: center;
+      margin: 0 auto 30px;
+
+      .title1 {
+        font-weight: 700;
+      }
+    }
+
+    .banner_subtitle {
+      color: $white;
+      text-align: left;
+
+      .title1 {
+        font-family: Century Gothic;
+        line-height: 120%;
+        font-size: 48px;
+      }
+
+      .title2 {
+        font-family: Century Gothic;
+        line-height: 120%;
+        font-size: 36px;
+      }
+    }
+  }
+
+  .banner_body {
+  }
+
+  .banner_footer {
+    display: flex;
+    justify-content: center;
+  }
+
+}

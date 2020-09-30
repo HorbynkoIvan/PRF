@@ -31,7 +31,7 @@
         align-items: center;
 
         span {
-          //font-family: $font-main;
+         // font-family: $font-main;
           font-size: 20px;
           color: $white;
           max-width: 160px;
@@ -67,41 +67,6 @@
         }
         img {
          max-width: 175px;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .footer {
-
-    .footer_wrapper {
-      .footer_content {
-      }
-
-      .footer_sale_btn {
-
-      }
-
-      .img_block {
-        .item_comment5 {
-          width: 135px;
-          height: 72px;
-          right: 80%;
-          bottom: 20%;
-
-          span {
-            //font-family: $font-main;
-            font-size: 14px;
-            color: $white;
-            max-width: 168px;
-            text-align: center;
-          }
-        }
-
-        img {
-          max-width: 175px;
         }
       }
     }
