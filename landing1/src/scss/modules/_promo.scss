@@ -170,7 +170,7 @@
           z-index: 1;
 
           span {
-           // font-family: $font-main;
+            // font-family: $font-main;
             font-size: 20px;
             color: $white;
             text-align: center;
@@ -200,15 +200,16 @@
         display: flex;
         align-items: center;
 
-        .item_link{
+        .item_link {
           font-size: 47px;
           line-height: 120%;
           color: $white;
           text-decoration: none;
           border-bottom: 1px solid $white;
           transition: color, border-bottom 0.3s;
-          &:hover{
-            color:#FFF200;
+
+          &:hover {
+            color: #FFF200;
             border-bottom: 1px solid transparent;
           }
         }
@@ -228,7 +229,12 @@
 }
 
 @media only screen and (min-width: 1601px) {
-
+  //.promo {
+  //  .promo_item, .promo_footer {
+  //    min-width: 1024px;
+  //    margin: 0 auto;
+  //  }
+  //}
 }
 
 @media only screen and (max-width: 1439px) {
@@ -246,9 +252,10 @@
     .promo_footer {
       .promo_footer_item {
 
-        .item_link{
+        .item_link {
           font-size: 36px;
         }
+
         .item_text span {
           font-size: 36px;
         }
@@ -349,7 +356,7 @@
             bottom: 70%;
 
             span {
-             // font-family: $font-main;
+              // font-family: $font-main;
               font-size: 20px;
               color: $white;
               text-align: center;
@@ -411,7 +418,8 @@
           height: 72px;
           bottom: 70%;
           right: 56%;
-          span{
+
+          span {
             font-size: 14px;
             max-width: 120px;
           }
@@ -422,7 +430,8 @@
           height: 72px;
           bottom: 68%;
           left: 66%;
-          span{
+
+          span {
             font-size: 14px;
           }
         }
@@ -517,7 +526,7 @@
             z-index: 1;
 
             span {
-             // font-family: $font-main;
+              // font-family: $font-main;
               font-size: 14px;
               color: $white;
               max-width: 120px;
