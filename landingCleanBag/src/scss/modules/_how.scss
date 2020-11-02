@@ -1,0 +1,132 @@
+.how {
+  background: $primary3;
+  padding-top: 30px;
+  padding-bottom: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .how_title {
+    //font-family: $font-main-bold;
+    font-size: 47px;
+    line-height: 110%;
+    text-align: center;
+    color: $textColor2;
+    margin-bottom: 63px;
+  }
+
+  .how_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    .item {
+      flex: 0 0 204px;
+
+      &:not(:last-child) {
+        margin-right: 60px;
+      }
+
+      .item_img {
+        margin-bottom: 30px;
+        position: relative;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      &:not(:first-child) .item_img:before {
+        content: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/line.svg");
+        position: absolute;
+        top: 50%;
+        left: -55px;
+        transform: translateY(-70%);
+      }
+
+      .item_text {
+        //font-family: $font-main;
+        font-size: 20px;
+        line-height: 120%;
+        max-width: 232px;
+        text-align: center;
+        color: $textColor;
+
+        span {
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .how {
+    .how_list {
+      .item {
+        flex: 0 0 158px;
+
+        &:not(:last-child) {
+          margin-right: 45px;
+        }
+
+        &:not(:first-child) .item_img:before {
+          content: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/line_tablet.svg");
+          position: absolute;
+          top: 50%;
+          left: -40px;
+          transform: translateY(-70%);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .how {
+    padding-top: 23px;
+    padding-bottom: 56px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .how_title {
+      font-size: 30px;
+      max-width: 288px;
+      margin: 0 auto 34px;
+    }
+
+    .how_list {
+      flex-direction: column;
+
+      .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 0 0 136px;
+        &:not(:last-child) {
+          margin-bottom: 41px;
+          margin-right: 0;
+        }
+
+        .item_img {
+          margin-bottom: 0px;
+          img{
+            min-width: 136px;
+            min-height: 136px;
+          }
+        }
+
+        &:not(:first-child) .item_img:before {
+          content: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/delivery/img/line_mob.svg");
+          position: absolute;
+          top: -36px;
+          left: 55%;
+          transform: translate(-50%, 0);
+        }
+        .item_text {
+          font-size: 18px;
+          max-width: 166px;
+          text-align: left;
+          margin-left: 2%;
+        }
+      }
+    }
+  }
+}
