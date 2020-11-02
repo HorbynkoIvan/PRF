@@ -55,5 +55,6 @@ img{
 //}
 
 .wrap {
-	@include min-max(320px, 1600px, 18%);
+	//@include min-max(320px, 1600px, 18%);
+	@include min-max(320px, 1600px, 150px);
 }
