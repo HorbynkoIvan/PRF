@@ -6,6 +6,9 @@ import $ from 'jquery';
 
 window.$ = window.jQuery = $;
 
-window.addEventListener('DOMContentLoaded', () => {
+//import './../js/owl.carousel.min.js';
 
+window.addEventListener('DOMContentLoaded', () => {
+//init owl-carousel
+   // $(".owl-carousel").owlCarousel();
 })
