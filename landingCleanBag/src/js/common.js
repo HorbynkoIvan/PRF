@@ -5,10 +5,8 @@ import './../scss/common.scss';
 import $ from 'jquery';
 
 window.$ = window.jQuery = $;
-
-//import './../js/owl.carousel.min.js';
+import {estimateSlider} from './partials/estimate_slider.js'
 
 window.addEventListener('DOMContentLoaded', () => {
-//init owl-carousel
-   // $(".owl-carousel").owlCarousel();
+    estimateSlider()
 })
