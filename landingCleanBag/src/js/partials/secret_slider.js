@@ -18,8 +18,8 @@ export function secretsSlider() {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    arrows: false,
+                    dots: false
                 }
             }
         ]

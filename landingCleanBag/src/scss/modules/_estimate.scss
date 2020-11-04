@@ -81,14 +81,48 @@
           font-size: 18px;
           line-height: 22px;
           padding: 15px 0;
-
-          //display: flex;
-          //flex-direction: column;
-          //justify-content: center;
           min-height: 70px;
         }
 
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .estimate {
+    padding: 20px 5% 30px;
+
+    .estimate_title {
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 0 15px 0;
+    }
+
+    .item {
+
+      .estimate_cart {
+
+        .estimate_item_text {
+          font-size: 18px;
+          line-height: 22px;
+          padding: 15px 0;;
+          min-height: auto;
+        }
+      }
+    }
+
+    .slider{
+      max-width: 250px;
+      margin: 0 auto
+    }
+
+    .arrow_left {
+      left: -25px;
+    }
+
+    .arrow_right {
+      right: -25px;
     }
   }
 }

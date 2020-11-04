@@ -57,3 +57,10 @@
 @media only screen and (max-width: 1024px) {
 
 }
+
+@media only screen and (max-width: 767px) {
+  .arrow_left, .arrow_right {
+    width: 26px;
+    height: 50px;
+  }
+}
