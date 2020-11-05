@@ -15,22 +15,12 @@ module.exports = {
         filename: 'assets/js/[name].js',
         publicPath: "/",
     },
-    resolve: {
-        alias: {
-            "@": path.resolve(__dirname, "src"),
-            'vue$': 'vue/dist/vue.esm.js'
-        }
-    },
     module: {
         rules: [
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: "babel-loader"
-            },
-            {
-                test: /\.vue$/,
-                loader: 'vue-loader'
             },
             {
                 test: /\.scss$/,
@@ -76,7 +66,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new VueLoaderPlugin(),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery'
