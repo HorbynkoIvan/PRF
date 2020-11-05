@@ -57,10 +57,8 @@
       line-height: 29px;
       color: $primary3;
 
-      a {
+      strong {
         font-weight: bold;
-        text-decoration: none;
-        color: $primary3;
       }
     }
 
@@ -241,10 +239,8 @@
       margin: 0 auto 15px;
       text-align: center;
 
-      a {
+      strong {
         font-weight: bold;
-        text-decoration: none;
-        color: $primary3;
         display: block;
       }
     }
