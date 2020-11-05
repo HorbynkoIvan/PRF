@@ -14,3 +14,9 @@ window.addEventListener('DOMContentLoaded', () => {
     estimateSlider()
     secretsSlider()
 })
+
+window.addEventListener('DOMContentLoaded', () => {
+    estimateSlider()
+    secretsSlider()
+})
+
