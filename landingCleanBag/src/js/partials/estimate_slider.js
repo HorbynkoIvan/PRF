@@ -1,13 +1,5 @@
-import slick from 'slick-carousel';
-
 export function estimateSlider() {
     let $slider = $('.estimate .slider');
-
-    // $slider.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-    //     let i = (currentSlide ? currentSlide : 0) + 1;
-    //     $('.estimate .current').text(i);
-    //     $('.estimate .total').text(slick.slideCount);
-    // });
 
     $slider.slick({
         infinite: false,
@@ -32,13 +24,4 @@ export function estimateSlider() {
             }
         ]
     });
-
-    // $('.estimate .prev').on('click', function (e) {
-    //     $slider.slick("slickPrev");
-    // })
-    // $('.estimate .next').on('click', function (e) {
-    //     $slider.slick("slickNext");
-    // })
-
-
 }
