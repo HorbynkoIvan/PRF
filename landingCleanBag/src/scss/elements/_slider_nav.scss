@@ -11,10 +11,11 @@
 //style dots
 .slick-dots {
   text-align: center;
-  padding-top: 30px;
+  margin-top: 30px;
 
   li {
     display: inline-block;
+    border: none;
     margin: 0 5px;
 
     button {

@@ -19,7 +19,9 @@ export function estimateSlider() {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true
                 }
             }
         ]

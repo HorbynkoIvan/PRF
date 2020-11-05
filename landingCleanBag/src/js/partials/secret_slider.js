@@ -19,9 +19,11 @@ export function secretsSlider() {
                 breakpoint: 767,
                 settings: {
                     arrows: false,
-                    dots: false
+                    dots: true
                 }
             }
         ]
+    }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        $('.secrets .slick-current iframe').attr('src', $('.secrets .slick-current iframe').attr('src'));
     });
 }
