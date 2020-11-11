@@ -37,6 +37,11 @@
           color: $white;
           min-height: 51px;
           margin-top: 25px;
+
+          .emoji{
+            display: inline-block;
+            img{width: 20px;}
+          }
         }
 
         .try_item-text {
