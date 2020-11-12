@@ -29,6 +29,22 @@
         height: 101px;
       }
       .try_item_content {
+        .try_item_title_block{
+          min-height: 51px;
+          margin-top: 25px;
+          text-align: center;
+          .try_item_title{
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: $white;
+          }
+          .try_item_emoji{
+            display: inline-block;
+            margin-left: 5px;
+            img{width: 20px;}
+          }
+        }
         h3 {
           font-weight: bold;
           font-size: 20px;
@@ -81,6 +97,11 @@
         }
 
         .try_item_content {
+          .try_item_title_block{
+            .try_item_title{
+              letter-spacing: -1px;
+            }
+          }
           h3 {
             font-weight: bold;
             font-size: 20px;
@@ -134,7 +155,15 @@
 
         .try_item_content {
           margin-left: 20px;
-
+          .try_item_title_block{
+            text-align: left;
+            .try_item_title{
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 20px;
+              letter-spacing: 0;
+            }
+          }
           h3 {
             font-size: 18px;
             line-height: 20px;
